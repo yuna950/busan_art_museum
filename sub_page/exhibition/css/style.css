@@ -1,0 +1,63 @@
+@import url(../../css/reset.css);
+@import url(../../css/common.css);
+
+.title {
+  margin-bottom: 30px;
+}
+
+.container_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.side_wrap {
+  display: flex;
+  gap: 10px;
+  font-size: 16px;
+  line-height: 60px;
+}
+
+/* ------------- */
+
+.title {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.con_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  width: 1520px;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.con {
+  width: 480px;
+  height: 680px;
+  cursor: pointer;
+}
+
+.bg_wrap {
+  margin-top: 15px;
+}
+
+.bg_title {
+  font-size: 30px;
+  font-weight: 500;
+  color: #000;
+}
+
+.bg_date {
+  font-size: 18px;
+  color: #999;
+  margin-top: 5px;
+}

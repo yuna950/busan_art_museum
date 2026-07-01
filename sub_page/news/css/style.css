@@ -1,0 +1,57 @@
+@import url(../../css/reset.css);
+@import url(../../css/common.css);
+
+.title_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+/* ----------------------- */
+
+.container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.con_wrap {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.con {
+  width: 100%;
+  border-top: 1px solid #d9d9d9;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.con:last-child {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.con p {
+  font-size: 22px;
+}
+
+.con:hover {
+  color: #39b034;
+}
+
+.con:hover .date {
+  color: #999;
+}
+
+.con .date {
+  font-size: 18px;
+  color: #999;
+}
