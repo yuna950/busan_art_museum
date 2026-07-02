@@ -17,14 +17,20 @@ window.addEventListener("scroll", () => {
 
   if (scroll > 900) {
     card1.classList.add("active");
+  } else {
+    card1.classList.remove("active");
   }
 
   if (scroll > 1100) {
     card2.classList.add("active");
+  } else {
+    card2.classList.remove("active");
   }
 
   if (scroll > 1350) {
     card3.classList.add("active");
+  } else {
+    card3.classList.remove("active");
   }
 });
 
