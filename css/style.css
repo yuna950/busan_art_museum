@@ -249,6 +249,7 @@ header {
 .img_wrap_4 img {
   height: 100%;
   object-fit: cover;
+  transform: rotateY(180deg);
 }
 
 .title_wrap_4 {
