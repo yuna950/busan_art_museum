@@ -172,6 +172,7 @@ header {
   opacity: 0;
   transform: translateY(50px);
   transition: 1s;
+  cursor: pointer;
 }
 
 .card2 {
@@ -295,6 +296,10 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+.con_5 {
+  cursor: pointer;
 }
 
 .con5 img {
